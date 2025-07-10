@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "proyecto_final_nn",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "proyecto_final_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-proyecto_final_test-Debug-ad8529bc81b3c3fd8b48.json",
+					"name" : "proyecto_final_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "proyecto_final_train::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-proyecto_final_train-Debug-e4bed95a5e3968883e0c.json",
+					"name" : "proyecto_final_train",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/USUARIO/CLionProjects/projecto-final-gogi-gogiloni-c-hiper/cmake-build-debug",
+		"source" : "C:/Users/USUARIO/CLionProjects/projecto-final-gogi-gogiloni-c-hiper"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
