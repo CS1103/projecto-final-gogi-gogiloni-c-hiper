@@ -1,0 +1,10 @@
+^C:\CODIGOS\CPP3\PROYECTO\PROJECTO-FINAL-GOGI-GOGILONI-C-HIPER\BUILD\CMAKEFILES\445AC4C6A439108DA1C15D0AAAE636B6\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Codigos/cpp3/Proyecto/projecto-final-gogi-gogiloni-c-hiper -BC:/Codigos/cpp3/Proyecto/projecto-final-gogi-gogiloni-c-hiper/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Codigos/cpp3/Proyecto/projecto-final-gogi-gogiloni-c-hiper/build/proyecto_final_nn.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
